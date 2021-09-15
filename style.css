@@ -6,6 +6,9 @@
 
 html {
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body {
     padding: 0px;
     margin: 0px;
 }
