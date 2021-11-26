@@ -1,0 +1,15 @@
+#header {
+    background-color: rgba(168, 136, 221, 0.2);
+    transition: background-color 700ms;
+}
+#header:hover {background-color: rgba(168, 136, 221, 0.4);}
+#card {
+    background-color: rgba(149, 109, 214, 0.2);
+    transition: background-color 700ms;
+}
+#card:hover {background-color: rgba(149, 109, 214, 0.4);}
+body {
+    background-color: #001219;
+    color: #c9c9c9; 
+}
+button {background-image: linear-gradient(to bottom, #446dac, #24406b); color: #fff;}
