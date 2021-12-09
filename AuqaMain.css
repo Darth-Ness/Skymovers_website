@@ -1,40 +1,39 @@
-#header {
+@import "local.css";
+.header,.banner,.card,button {
     padding: 15px;
-    box-shadow: 2px 4px rgba(0, 0, 0, 0.6);
-    margin-bottom: 30px;
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    text-shadow: 0 3px 3px rgba(0, 0, 0, 0.6);
 }
-#banner {
-    padding: 15px;
-    box-shadow: 2px 4px rgba(0, 0, 0, 0.6);
-}
+.header,.banner {border-radius: 0px;}
+.header {margin-bottom: 5%;}
 
-#card {
-    padding: 30px;
+.card {
     width: fit-content;
     min-width: 30%;
     max-width: 60%;
-    border-radius: 30px;
     transition: box-shadow 500ms, background-color 700ms;
-    box-shadow: 2px 4px rgba(0, 0, 0, 0.4);
     margin-bottom: 10%;
-    text-shadow: 2px 2px rgba(0, 0, 0, 0.7);
- }
-#card:hover { box-shadow: 2px 8px rgba(0, 0, 0, 0.7);}
-body {
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-    margin: 0px;
 }
+.card:hover { box-shadow: 0 4px 10px rgba(0, 0, 0.8);}
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+    font-weight: 900;
+    font-size: 18;
+ }
 button {
     border: none;
-    padding: 15px;
-    border-radius: 20px;
-    font-size: 18;
-    transition: opacity 500ms, box-shadow 500ms;
-    box-shadow: 2px 4px rgba(0, 0, 0, 0.4);
+    transition: box-shadow 500ms;
     margin-right: 25px;
-    text-shadow: 2px 2px rgba(0, 0, 0, 1);
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 0.8;
 }
-button:hover {box-shadow: 2px 6px rgba(0, 0, 0, 0.7);}
-#left {float: left;}
-#right {float: right;}
+button:hover {box-shadow: 0 7px 7px rgba(0, 0, 0, 0.8);}
+.left {float: left;}
+.right {float: right;}
+.top {position: relative; bottom: 100%}
+.bottom {position: relative; top: 100%}
+.absolute {position: absolute;}
 a {text-decoration: none;}
